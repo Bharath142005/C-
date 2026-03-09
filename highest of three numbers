@@ -1,0 +1,15 @@
+using System;
+
+class Program
+{
+    static void Main()
+    {
+        int a = 10;
+        int b = 25;
+        int c = 7;
+
+        int highest = Math.Max(a, Math.Max(b, c));
+
+        Console.WriteLine("Highest number: " + highest);
+    }
+}
