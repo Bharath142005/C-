@@ -1,0 +1,16 @@
+using System;
+
+class Program
+{
+    static void Main()
+    {
+        int[] marks = { 45, 78, 88, 92, 60 };
+
+        Console.WriteLine("Marks in array:");
+
+        foreach (int m in marks)
+        {
+            Console.WriteLine(m);
+        }
+    }
+}
