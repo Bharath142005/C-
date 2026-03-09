@@ -1,0 +1,15 @@
+using System;
+
+class Program
+{
+    static void Main()
+    {
+        string name = "Bharath";
+
+        Console.WriteLine("Name: " + name);
+        Console.WriteLine("Length: " + name.Length);
+        Console.WriteLine("Upper: " + name.ToUpper());
+        Console.WriteLine("Lower: " + name.ToLower());
+        Console.WriteLine("First character: " + name[0]);
+    }
+}
