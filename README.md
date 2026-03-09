@@ -1,2 +1,21 @@
-# C-
-C#
+
+using System;
+namespace app{
+
+public class HelloWorld
+{
+    public static void Main(string[] args)
+    {
+        int a = Convert.ToInt32(Console.ReadLine());
+        int sum=0;
+        while(a>0){
+            int dig=a%10;
+            sum=sum*10+dig;
+            a=a/10;
+            
+        }
+        Console.WriteLine(sum);
+        
+    }
+}
+}
