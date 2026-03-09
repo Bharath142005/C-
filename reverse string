@@ -1,0 +1,18 @@
+using System;
+namespace app{
+
+public class HelloWorld
+{
+    public static void Main(string[] args)
+    {
+        string a = Console.ReadLine();
+        char [] ch=a.ToCharArray();
+        Array.Reverse(ch);
+        string rev=new string(ch);
+        Console.WriteLine(rev);
+        
+        
+        
+    }
+}
+}
